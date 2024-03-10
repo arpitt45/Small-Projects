@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin: 30px;
+    border: 2px solid black;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+.buttons{
+    width: 144px;
+    height: 144px;
+    border: 2px solid black;
+
+}
