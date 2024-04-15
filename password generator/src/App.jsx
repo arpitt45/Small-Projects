@@ -2,15 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Message from './assets/Components/Message'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [c, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-4xl text-center">
-        Password generator
-      </h1>
+      <Message/>
     </>
   )
 }
